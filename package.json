@@ -1,0 +1,23 @@
+{
+  "name": "front-end-workflow",
+  "version": "0.0.0",
+  "description": "Projeto voltado para iniciantes, apresentando um workflow front-end",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "front-end",
+    "gulp",
+    "node.js"
+  ],
+  "author": "Victor",
+  "license": "WTF",
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-compass": "~1.1.9",
+    "gulp-changed": "~0.4.1",
+    "gulp-imagemin": "~0.6.2",
+    "browser-sync": "~1.3.0"
+  }
+}
