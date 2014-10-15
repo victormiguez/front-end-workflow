@@ -29,6 +29,6 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('default', ['sass', 'browser-sync'], function () { 
+gulp.task('watch', ['sass', 'browser-sync'], function () { 
     gulp.watch('./assets/sass/**/*.scss', ['sass']);
 });
